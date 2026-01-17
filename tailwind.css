@@ -12,3 +12,7 @@
     font-family: "EB Garamond", serif;
   }
 }
+
+.hero-section {
+  background: url(images/Rectangle\ 5.png), url(images/banner.png);
+}
