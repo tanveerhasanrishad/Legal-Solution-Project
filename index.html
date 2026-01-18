@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -283,12 +283,36 @@
             suffered alteration in some form, by injected humour.
           </p>
         </div>
-        <div class="content-div">
+        <div class="content-div flex gap-[30px]">
           <div
             class="cards-div w-[570px] h-[570px] grid grid-cols-2 grid-rows-2"
           >
             <div
-              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3]"
+              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3] border-r-3 border-b-3 border-gray-200"
+            >
+              <img src="images/location.png" alt="" />
+              <h4 class="font-garamond font-extrabold text-2xl text-[#414040]">
+                Address
+              </h4>
+              <p class="font-poppins leading-6 text-[#707070]">
+                A108 Adam Street, <br />
+                New York, NY 535022
+              </p>
+            </div>
+            <div
+              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3] border-b-3 border-gray-200"
+            >
+              <img src="images/location.png" alt="" />
+              <h4 class="font-garamond font-extrabold text-2xl text-[#414040]">
+                Address
+              </h4>
+              <p class="font-poppins leading-6 text-[#707070]">
+                A108 Adam Street, <br />
+                New York, NY 535022
+              </p>
+            </div>
+            <div
+              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3] border-r-3 border-gray-200"
             >
               <img src="images/location.png" alt="" />
               <h4 class="font-garamond font-extrabold text-2xl text-[#414040]">
@@ -311,30 +335,37 @@
                 New York, NY 535022
               </p>
             </div>
-            <div
-              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3]"
-            >
-              <img src="images/location.png" alt="" />
-              <h4 class="font-garamond font-extrabold text-2xl text-[#414040]">
-                Address
-              </h4>
-              <p class="font-poppins leading-6 text-[#707070]">
-                A108 Adam Street, <br />
-                New York, NY 535022
-              </p>
-            </div>
-            <div
-              class="card px-[61px] py-[65px] flex justify-center items-center flex-col gap-4 text-center bg-[#F3F3F3]"
-            >
-              <img src="images/location.png" alt="" />
-              <h4 class="font-garamond font-extrabold text-2xl text-[#414040]">
-                Address
-              </h4>
-              <p class="font-poppins leading-6 text-[#707070]">
-                A108 Adam Street, <br />
-                New York, NY 535022
-              </p>
-            </div>
+          </div>
+          <div class="form">
+            <form class="flex flex-col gap-[30px]">
+              <input
+                type="text"
+                class="w-[570px] py-[23px] pl-[23px] bg-[#f3f3f3] font-poppins text-[#707070] rounded-lg"
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                class="w-[570px] py-[23px] pl-[23px] bg-[#f3f3f3] font-poppins text-[#707070] rounded-lg"
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                class="w-[570px] py-[23px] pl-[23px] bg-[#f3f3f3] font-poppins text-[#707070] rounded-lg"
+                placeholder="Subject"
+              />
+              <textarea
+                rows="5"
+                name=""
+                id=""
+                class="w-[570px] py-[23px] pl-[23px] bg-[#f3f3f3] font-poppins text-[#707070] rounded-lg"
+                placeholder="Your Message"
+              ></textarea>
+              <input
+                type="submit"
+                value="Send Message"
+                class="w-[570px] py-[23px] pl-[23px] bg-[#B68C5A] font-poppins text-white rounded-lg font-semibold text-[20px]"
+              />
+            </form>
           </div>
         </div>
       </section>
